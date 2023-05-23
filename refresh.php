@@ -22,8 +22,15 @@ $header = array(
 $get = curl($url, $header, 0, $useragent, $cookie)[1];
 
 $fb_dtsg = preg_match_all('/name="fb_dtsg" value="(.*?)"/', $get, $fb_dtsg) ? $fb_dtsg[1][0] : null;
-
+$myfile = fopen("dtsg.txt", "w") or die("Unable to open file!");
+$txt = "".print_r($fb_dtsg,1)."";
+fwrite($myfile, $txt);
+fclose($myfile);
 print '<pre>'.print_r($fb_dtsg,1).'</pre>'; flush(); die();
+
+
+
+
 
 
 function curl($url, $header = null, $postfields = null, $useragent = null, $cookie = null, $proxy = null) {
