@@ -2,7 +2,7 @@
 date_default_timezone_set('Asia/Jakarta');
 
 $url = 'https://m.facebook.com/story.php?story_fbid=pfbid0ZvwuqLDayJC9GHS22ME6bugPaXYLF8D9EWBXiJtfFYoqWtPFhUXLc8hT5K3MB5BZl&id=100023707813487&refid=8&_ft_=qid.-6065724583237763388%3Amf_story_key.2780089216474489414%3Atop_level_post_id.1218856095581306%3Acontent_owner_id_new.100023707813487%3Asrc.22%3Aphoto_id.1218856062247976%3Astory_location.5%3Astory_attachment_style.photo%3Aview_time.1656562554%3Afilter.h_nor%3Aweight.413.89868164062%3Asty.247%3Amf_objid.1218856095581306%3Aent_attachement_type.MediaAttachment%3Aviewstate_id.2780089216474489414%3Apos.5%3Aactrs.100023707813487%3Aftmd_400706.111111l&__tn__=%2AW-R';
-$cookie = file_get_contents('cookie.txt');
+include 'atur.php';
 $useragent = 'curl/7.73.0';
 $header = array(
 	'Host: m.facebook.com',
