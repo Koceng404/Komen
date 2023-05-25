@@ -4,7 +4,7 @@
 $cookie =  ''; //cookie Kamu
 $target =  ''; // Target Post
 
-$Text = '
+$teks = '
 
 
 
