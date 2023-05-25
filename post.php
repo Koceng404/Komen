@@ -50,7 +50,7 @@ $headers   = array(
 'upgrade-insecure-requests: 1',
 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36',
 );
-$post ="fb_dtsg=".$dtsg."&jazoest=25399&comment_text=".urlencode($jawaban)."&sticker_id=".$stiker."";
+$post ="fb_dtsg=".$dtsg."&jazoest=25399&comment_text=".urlencode($teks)."&sticker_id=".$stiker."";
 $post      = json_decode(yarzCurl($url, $post, false, $headers, true));
 }
 
