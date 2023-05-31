@@ -1,15 +1,23 @@
-# Update 2023 / 05 / 23
+# Update 2023 / 05 / 31
 
 Caranya? 
-isikan : Cookie, Target, Jawaban Kamu Pada Atur.php
+Cukup isikan : Cookie, Target, Jawaban Kamu Pada Atur.php
 Jalankan refresh.php terlebih dahulu untuk mendapatkan dtsg facebook.
 Lanjut Jalankan post.php
 
-pastikan Gunakan Menejemen Proses untuk menjalankan post.php atur berapa menit untuk Mendelay menejemen dengan 
---restart-delay=180000 ( 3 menit )
-
-Enjoy... 
-tinggal tiduran 1 minggu, pastikan HP kamu konek Wifi terus yaa :)
 
 
-by: Koceng 
+Jangan Lupa Install termux.
+-. Install Modul pada Termux dengan Perintah.
+pkg update
+pkg upgrade
+pkg install php
+pkg install git
+pkg install npm
+npm install pm2@latest -g
+
+git clone https://github.com/Koceng404/Komen
+cd Komen
+
+setelah itu silakan edit bagian atur.php
+nano atur.php
