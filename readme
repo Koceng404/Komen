@@ -1,12 +1,5 @@
 # Update 2023 / 05 / 31
 
-Caranya? 
-Cukup isikan : Cookie, Target, Jawaban Kamu Pada Atur.php
-Jalankan refresh.php terlebih dahulu untuk mendapatkan dtsg facebook.
-Lanjut Jalankan post.php
-
-
-
 Jangan Lupa Install termux.
 -. Install Modul pada Termux dengan Perintah.
 pkg update
@@ -21,3 +14,9 @@ cd Komen
 
 setelah itu silakan edit bagian atur.php
 nano atur.php
+
+
+Caranya? 
+Cukup isikan : Cookie, Target, Jawaban Kamu Pada Atur.php
+Jalankan refresh.php terlebih dahulu untuk mendapatkan dtsg facebook.
+Lanjut Jalankan post.php
